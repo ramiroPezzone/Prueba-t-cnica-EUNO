@@ -68,9 +68,3 @@ const eliminarProd = (cod) => {
   location.reload();
 };
 //
-
-// Edición de un producto
-const editarProd = (cod) => {
-  console.log(cod);
-};
-//
