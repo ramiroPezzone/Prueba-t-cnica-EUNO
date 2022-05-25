@@ -1,0 +1,101 @@
+:root {
+  --color1: rgb(190, 190, 190);
+  --color2: rgb(235, 235, 235);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url(../imgs/fondo.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+table tr:nth-child(even) {
+  background-color: var(--color1);
+}
+table tr:nth-child(odd) {
+  background-color: var(--color2);
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+.containerTotalListado {
+  padding: 10px 0;
+}
+#totalProductos {
+  font-weight: bolder;
+}
+.containerTableProducts {
+  width: 90%;
+  margin: 0 auto;
+  overflow-x: auto;
+  max-width: 900px;
+}
+.containerBtnNewProd {
+  text-align: center;
+  margin: 15px;
+}
+.containerBtnNewProd a {
+  text-decoration: none;
+  padding: 10px 12px;
+  color: #000;
+  border-radius: 10px;
+  border: 1px solid goldenrod;
+}
+.containerBtnNewProd a:hover {
+  background-color: goldenrod;
+  color: #fff;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+#col1,
+#col3,
+#col4 {
+  width: 10%;
+}
+#col2 {
+  width: 40%;
+}
+#col5,
+#col6 {
+  width: 15%;
+}
+td {
+  text-align: center;
+  padding: 5px;
+}
+#btnEditar a {
+  text-decoration: none;
+  color: blueviolet;
+}
+#btnEditar,
+#btnEliminar {
+  padding: 5px;
+  cursor: pointer;
+}
+#btnEditar {
+  border: 2px outset skyblue;
+  border-radius: 5px;
+  background-color: transparent;
+}
+#btnEditar:hover,
+#btnEditar:hover a {
+  background-color: skyblue;
+  color: #fff;
+}
+#btnEliminar {
+  border: 2px outset red;
+  border-radius: 5px;
+  background-color: transparent;
+  color: red;
+}
+#btnEliminar:hover {
+  background-color: red;
+  color: #fff;
+}

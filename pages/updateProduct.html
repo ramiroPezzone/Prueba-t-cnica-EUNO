@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/imgs/logo.png" type="image/x-icon">
+
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="./styles/styles.css">
+
+  <title>Edición de un producto</title>
+</head>
+
+<body>
+
+  <div class="titleEditando">
+    <h3>Editando <span id="nombreProductoAEditar"></span></h3>
+  </div>
+
+  <div class="containerBtnVolver">
+    <a href="../index.html">🡄 Ver todos los productos</a>
+  </div>
+
+  <div class="containerEditForm">
+    <form id="updateForm">
+
+      <label for="cod">
+        Código del producto
+      </label>
+      <input type="text" name="updateCod" id="updateCod" />
+
+      <label for="name">
+        Nombre
+      </label>
+      <input type="text" name="updateName" id="updateName" />
+
+      <label for="color">
+        Color
+      </label>
+      <input type="color" name="updateColor" id="updateColor" />
+
+      <label for="peso">
+        Peso
+      </label>
+      <input type="number" name="updatePeso" id="updatePeso" />
+
+      <div class="containerBtnAceptar">
+        <button type="submit" class="btnAceptar">
+          Guardar cambios
+        </button>
+      </div>
+
+    </form>
+  </div>
+  <script src="../js/updateProductForm.js"></script>
+</body>
+
+</html>

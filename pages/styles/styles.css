@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url(../../imgs/fondo.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.containerCreateForm,
+.containerEditForm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 2px 5px #000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+input {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 25px;
+  padding: 5px;
+}
+.containerBtnAceptar {
+  width: 20%;
+  margin: 0 auto;
+}
+.btnAceptar {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px outset greenyellow;
+  color: greenyellow;
+  border-radius: 15px;
+}
+.btnAceptar:hover {
+  background-color: greenyellow;
+  color: #fff;
+  cursor: pointer;
+}
+.containerBtnVolver {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+}
+.containerBtnVolver a {
+  text-decoration: none;
+  color: #fff;
+}
+.titleEditando {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: #fff; 
+}

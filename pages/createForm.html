@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/imgs/logo.png" type="image/x-icon">
+
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="./styles/styles.css">
+
+  <title>Creación de un producto</title>
+</head>
+
+<body>
+
+  <div class="containerBtnVolver">
+    <a href="../index.html">🡄 Ver todos los productos</a>
+  </div>
+
+  <div class="containerCreateForm">
+    <form id="createForm">
+
+      <label for="cod">
+        Código del producto
+      </label>
+      <input type="text" name="cod" id="cod" />
+
+      <label for="name">
+        Nombre
+      </label>
+      <input type="text" name="name" id="name" />
+
+      <label for="color">
+        Color
+      </label>
+      <input type="color" name="color" id="color" />
+
+      <label for="peso">
+        Peso
+      </label>
+      <input type="number" name="peso" id="peso" />
+
+      <div class="containerBtnAceptar">
+        <button type="submit" class="btnAceptar">
+          Guardar
+        </button>
+      </div>
+    </form>
+  </div>
+  <script src="../js/createForm.js"></script>
+</body>
+
+</html>
