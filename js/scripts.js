@@ -19,7 +19,7 @@ if (d.getElementById("productDataTr")) {
   if (productosInDB.length === 0) {
     dataTR.insertAdjacentHTML(
       "afterend",
-      "<tr><td colspan='4'>No existen productos en memoria</td></tr>"
+      "<tr><td colspan='6'>No existen productos en memoria</td></tr>"
     );
   } else {
     productosInDB.forEach((prod) => {
